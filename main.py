@@ -22,7 +22,7 @@ docs = pdf_loader.load()
 text_splitter = RecursiveCharacterTextSplitter(chunk_size=1500, chunk_overlap=200)
 chunks = text_splitter.split_documents(docs)
 
-# Vektör veritabanı
+# Vektör veritabanı burada weaviate kullanılabilir
 embedding_s = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
 vectorestore = FAISS.from_documents(chunks, embedding_s)
 retriever = vectorestore.as_retriever()
