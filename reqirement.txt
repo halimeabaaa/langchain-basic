@@ -1,0 +1,13 @@
+langchain==0.2.10
+langchain-community==0.2.9   #langchain ile entegre olan açık kaynaklı bileşenler
+langchain-core==0.2.22       #langchain çekirdeğini içerir
+langchain-openai==0.1.17     #langchain içinde openai kullanmak için adaptör
+langchain-text-splitters==0.2.2 #metinleri bölmek,RAG kullanmak veya uzun metin işlemeye yarar
+openai==1.59.8                  #
+python-dotenv==1.0.1            #değişkenleri pythona yükler
+fastapi==0.111.1
+langserve==0.2.2
+sse_starlette==2.1.2            #canlı ve anlık veri akılı sağlar
+
+
+
