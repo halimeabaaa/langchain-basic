@@ -1,3 +1,4 @@
+
 langchain==0.2.10
 langchain-community==0.2.9   
 langchain-core==0.2.22       
@@ -8,6 +9,5 @@ python-dotenv==1.0.1
 fastapi==0.111.1
 langserve==0.2.2
 sse_starlette==2.1.2           
-
 
 
